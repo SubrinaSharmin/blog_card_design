@@ -1,0 +1,113 @@
+/*
+My Solution
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap");
+
+:root {
+  --background-color: hsl(47, 88%, 63%);
+  --container-color: hsl(0, 0%, 100%);
+  --text-color: hsl(0, 0%, 42%);
+  --shadow-color: hsl(0, 0%, 7%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Figtree", serif;
+  background-color: var(--background-color);
+  height: 80vh;
+  display: grid;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.container {
+  background-color: var(--container-color);
+  max-width: 400px;
+  gap: 10px;
+  padding: 20px;
+  border: 1px solid var(--shadow-color);
+  border-radius: 20px;
+  box-shadow: var(--shadow-color) 5px 5px 0px;
+}
+
+.illustraion_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6px;
+  /* padding-top: 25px; */
+}
+
+.illustraion_div img {
+  border-radius: 10px;
+  width: 350px;
+  /* margin-bottom: 25px; */
+}
+
+.btn_learning {
+  padding: 3px 10px;
+  background-color: var(--background-color);
+  border: none;
+  border-radius: 4px;
+  margin: 25px 0 10px 0;
+  cursor: pointer;
+}
+
+.container p,
+span {
+  margin: 0 0 10px 0;
+}
+
+.description h1,
+p {
+  margin: 0 0 10px 0;
+}
+
+.description h1 {
+  font-size: 1.5rem;
+}
+
+.description h1:hover {
+  cursor: pointer;
+  color: var(--background-color);
+}
+
+.description p {
+  line-height: 1.5em;
+  color: gray;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.profile span {
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+.profile img {
+  width: 50px;
+}
+
+.attribution {
+  margin-top: 20px;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
