@@ -24,10 +24,10 @@ html {
 body {
   font-family: "Figtree", serif;
   background-color: var(--background-color);
-  height: 80vh;
+  height: 50vh;
   display: grid;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 10%;
 }
 
 .container {
